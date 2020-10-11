@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Gustavo Bakker."
-email: 'jami0821@gmail.com'
-description: "I'm a software/machine-learning engineer creating AI powered web applications for the world."
+email: 'gustavobakker@hotmail.com'
+description: "I'm a Software Developer & Machine Learning Engineer creating AI powered web applications for the world."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gusbakker.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'gusbakker'
@@ -90,7 +90,7 @@ pagination:
 
 ### Phantom settings
 footer_text: '© 2020 Gustavo Bakker'
-admin_name: 'JGustavo Bakker'
+admin_name: 'Gustavo Bakker'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
