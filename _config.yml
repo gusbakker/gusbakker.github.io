@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: Gustavo Bakker
+email: gustavobakker@hotmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Software Developer - Machine Learning Engineer"
-meta_author: LastName FirstName
+description: "Gustavo Bakker - Software Developer and independent AI/ML researcher"
+keywords: "artificial intelligence, machine learning, software developer, researcher"
+skills: "Software Developer - Independent AI/ML Researcher"
+meta_author: Bakker Gustavo
 
 # Google webmaster tools
 google_verify:
@@ -25,17 +25,16 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 1d2938 #1d2938
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: 28465f #28465f
+  secondary-dark: 19354c #19354c
 
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -43,8 +42,10 @@ social:
     url: https://twitter.com/gusbakker
   - title: github
     url: http://github.com/gusbakker
-  - title: kaggle
-    url: https://www.kaggle.com/gustavobakker
+  - title: linkedin
+    url: https://www.linkedin.com/in/gustavo-bakker-9631628b/
+  - title: minus-square-o
+    url: https://medium.com/@gustavobakker
 
 # Postal address (add as many lines as necessary)
 address:
@@ -52,7 +53,7 @@ address:
   - line: Portugal
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: ''
 
 # Build settings
 markdown: kramdown
