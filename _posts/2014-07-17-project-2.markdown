@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2020-02-17
 img: cake.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: February 2020
+client: Capstone Project
+category: Data Science
+description: Applied Data Science Capstone by IBM/Coursera, in which I made a study of Lisbon types of restaurants by geographic area to understand how certain types of restaurant and its food will vary in different neighbourhoods, with the goal of giving understanding of how this can vary with the variance of the location in a certain city.
 ---
