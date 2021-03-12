@@ -8,7 +8,8 @@ alt: image-alt
 project-date: February 2020
 languages: Python
 frameworks: numpy; pandas; sklearn, geopy
-link: https://github.com/gusbakker/coursera_capstone
+link-github: https://github.com/gusbakker/coursera_capstone
+link-other: https://medium.com/@gustavobakker/exploring-restaurants-in-lisbon-neighbourhoods-2a990555063a
 category: Data Science
 short-description: EDA of Lisbon restaurants by geographic area
 description: Applied Data Science Capstone by IBM/Coursera, in which I made a study of Lisbon types of restaurants by geographic area to understand how certain types of restaurant and its food will vary in different neighbourhoods, with the goal of giving understanding of how this can vary with the variance of the location in a certain city.

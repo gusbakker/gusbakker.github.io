@@ -18,10 +18,14 @@
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
-                            <!-- Place this tag where you want the button to render. -->
-                                <a href="{{ post.link }}" class="btn btn-success" target="blank">See project on GitHub &nbsp;<i class="fa fa-github"></i></a>
-<!--                            <p></p>-->
-<!--                            <a class="github-button" href="{{ post.link }}" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star gusbakker on GitHub">Star</a>-->
+                            {% if post.link-github %}
+                                <!-- Place this tag where you want the button to render. -->
+                                <a href="{{ post.link-github }}" class="btn btn-success" target="blank">See project on GitHub &nbsp;<i class="fa fa-github"></i></a>
+                            {% endif %}
+                            {% if post.link-other %}
+                                <!-- Place this tag where you want the button to render. -->
+                                <a href="{{ post.link-other }}" class="btn btn-success" style="background-color: blue; margin-left: 5px" target="blank">See Publication &nbsp;</a>
+                            {% endif %}
 
                             <ul class="list-inline item-details">
                                 {% if post.languages %}
