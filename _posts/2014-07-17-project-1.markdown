@@ -1,11 +1,13 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 1
+title: BERT Chatbot
 date: 2021-03-08
-img: circus.png
+img: 1.png
 alt: image-alt
 project-date: April 2021
 client: Start Bootstrap
 category: Web Development/Deep Learning
+short-description: Chatbot based on the transformer model BERT
 description: Chatbot using DeepPavlov library using state-of-the-art Transformer model to produce realistic conversations based on knowledge data.
 ---

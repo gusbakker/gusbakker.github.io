@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 3
+title: Data Science Capstone
+date: 2020-02-17
+img: 3.png
+alt: image-alt
+project-date: February 2020
+client: Capstone Project
+category: Data Science
+short-description: EDA of Lisbon restaurants by geographic area
+description: Applied Data Science Capstone by IBM/Coursera, in which I made a study of Lisbon types of restaurants by geographic area to understand how certain types of restaurant and its food will vary in different neighbourhoods, with the goal of giving understanding of how this can vary with the variance of the location in a certain city.
+---

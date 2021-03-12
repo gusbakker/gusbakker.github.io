@@ -11,9 +11,11 @@
             <div class="portfolio-flex-row">
                 {% for post in site.posts %}
                     <div class="portfolio-flex-item portfolio-item">
+                                    <h4 class="text-center">{{ post.title }}</h4>
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
+                                    <h4>{{ post.short-description }}</h4>
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
@@ -21,6 +23,11 @@
                         </a>
                     </div>
                 {% endfor %}
+            </div>
+            <div class="container text-center mt-5">
+                <h5 class="mb-4">For more projects...</h5>
+                <a href="https://github.com/gusbakker" class="btn btn-success btn-lg" target="blank">Visit My GitHub &nbsp;<i class="fa fa-github"></i></a>
+                <!--<a href="#" class="btn btn-xl btn-dark">View Project Demos</a>-->
             </div>
         </div>
     </section>

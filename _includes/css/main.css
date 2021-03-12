@@ -230,7 +230,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #363943;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -239,7 +239,7 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
+    margin-top: -12px;
 }
 
 #portfolio * {
@@ -482,3 +482,7 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+
+
