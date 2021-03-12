@@ -6,7 +6,9 @@ date: 2021-03-08
 img: 1.png
 alt: image-alt
 project-date: April 2021
-client: Start Bootstrap
+languages: Python
+frameworks: Flask; PyTorch
+link: https://github.com/gusbakker/superchatbot
 category: Web Development/Deep Learning
 short-description: Chatbot based on the transformer model BERT
 description: Chatbot using DeepPavlov library using state-of-the-art Transformer model to produce realistic conversations based on knowledge data.

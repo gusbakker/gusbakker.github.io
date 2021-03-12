@@ -6,7 +6,9 @@ date: 2021-03-08
 img: 2.png
 alt: image-alt
 project-date: May 2020
-client: Start Bootstrap
+languages: Python; Javascript; HTML, CSS
+frameworks: Django; jQuery; Bootstrap
+link: https://github.com/gusbakker/bootcamp
 category: Python/Django Web Development
 short-description: Social Network Web App similar the style of Twitter.
 description: My version of the Bootcamp social network, in which I added new functionalities and updated it to become a complete but simple social network in the style of Twitter.

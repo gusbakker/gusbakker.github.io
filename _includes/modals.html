@@ -18,22 +18,27 @@
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
+                            <!-- Place this tag where you want the button to render. -->
+                                <a href="{{ post.link }}" class="btn btn-success" target="blank">See project on GitHub &nbsp;<i class="fa fa-github"></i></a>
+<!--                            <p></p>-->
+<!--                            <a class="github-button" href="{{ post.link }}" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star gusbakker on GitHub">Star</a>-->
+
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                {% if post.languages %}
+                                    <li>PL:
+                                        <strong><a href="#">{{ post.languages }}</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                {% if post.frameworks %}
+                                    <li>Frameworks:
+                                        <strong><a href="#">{{ post.frameworks }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                        </strong>
-                                    </li>
-                                {% endif %}
-                                {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                        <strong><a href="#">{{ post.project-date }}</a>
                                         </strong>
                                     </li>
                                 {% endif %}
