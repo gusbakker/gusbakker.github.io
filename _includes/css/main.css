@@ -84,6 +84,8 @@ header {
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url('img/background/{{ site.background-image }}');
+    background-size: cover;
 }
 
 header .container {
@@ -94,6 +96,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
+    border-radius: 50%;
 }
 
 header .intro-text .name {
@@ -139,6 +142,10 @@ header .intro-text .skills {
         transition: all .3s;
     }
 
+    .navbar-fixed-top .navbar-brand:hover {
+        color: #{{ site.color.secondary-soft }};
+    }
+
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
@@ -164,6 +171,11 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+}
+
+.navbar .navbar-nav li a:hover {
+    outline: 0;
+    color: #{{ site.color.secondary-soft }};
 }
 
 .navbar-default,
