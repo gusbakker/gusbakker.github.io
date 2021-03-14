@@ -84,7 +84,7 @@ header {
     text-align: center;
     color: #fff;
     background: #{{ site.color.primary }};
-    background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url('img/background/{{ site.background-image }}');
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('img/background/{{ site.background-image }}');
     background-size: cover;
 }
 
