@@ -14,7 +14,7 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <p>{{ post.short-description }}</p>
-                            <img src="img/portfolio/{{ post.img }}" style="width: 50%; height: 50%" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.img }}" style="width: 70%; height: 70%" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
                             {% endif %}
@@ -36,6 +36,10 @@
                             {% if post.link-other %}
                                 <!-- Place this tag where you want the button to render. -->
                                 <a href="{{ post.link-other }}" class="btn btn-success" style="background-color: blue; margin-left: 5px" target="blank">See Publication &nbsp;</a>
+                            {% endif %}
+                            {% if post.link-app %}
+                                <!-- Place this tag where you want the button to render. -->
+                                <a href="{{ post.link-app }}" class="btn btn-success" style="background-color: blue; margin-left: 5px" target="blank">Go to App &nbsp;</a>
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.languages %}

@@ -3,13 +3,25 @@ layout: default
 modal-id: 2
 title: Social Network Web App
 date: 2021-03-08
-img: 2.png
+img: 2c.gif
 alt: image-alt
 project-date: May 2020
 languages: Python; Javascript; HTML, CSS
 frameworks: Django; jQuery; Bootstrap
 link-github: https://github.com/gusbakker/bootcamp
+link-app: https://www.antisocialnetwork.live
 category: Python/Django Web Development
 short-description: Social Network Web App similar the style of Twitter.
-description: My version of the Bootcamp social network, in which I added new functionalities and updated it to become a complete but simple social network in the style of Twitter.
+description: >
+
+    My version of <a href="https://github.com/vitorfs/bootcamp">Bootcamp</a> social network written in Python using Django framework, in which I created a new design for the app and added new features in the style of Twitter.
+    
+    New features include: 
+    
+    New design, 
+    Login with Facebook, 
+    Content filtering, 
+    Chat with your friends, 
+    See friends login and posts activity, 
+    Dark mode
 ---
