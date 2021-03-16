@@ -14,11 +14,21 @@
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
-                            {% for network in site.social %}
                             <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                                <a href="{{ site.social.github }}" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
-		                    {% endfor %}
+                            <li>
+                                <a href="{{ site.social.linkedin }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="{{ site.social.twitter }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="{{ site.social.youtube }}" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="{{ site.social.medium }}" class="btn-social btn-outline"><i class="fa fa-fw fa-minus-square-o"></i></a>
+                            </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">

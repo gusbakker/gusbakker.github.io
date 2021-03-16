@@ -29,7 +29,7 @@ color:
   primary-rgb: "240, 254, 255" #"128,179,255"
   secondary: 101e33 #101e33
   secondary-dark: 19354c #19354c
-  secondary-soft: 8ed4cb #8ed4cb
+  secondary-soft: 128f76 #128f76
 
 # background image
 background-image: holland.JPG
@@ -42,14 +42,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/gusbakker
-  - title: github
-    url: http://github.com/gusbakker
-  - title: linkedin
-    url: https://www.linkedin.com/in/gustavo-bakker-9631628b/
-  - title: minus-square-o
-    url: https://medium.com/@gustavobakker
+    twitter: https://twitter.com/gusbakker
+    github: http://github.com/gusbakker
+    linkedin: https://www.linkedin.com/in/gustavo-bakker-9631628b
+    medium: https://medium.com/@gustavobakker
+    youtube: https://www.youtube.com/user/gusbakker
+
 
 # Postal address (add as many lines as necessary)
 address:

@@ -13,10 +13,21 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.short-description }}</p>
+                            <img src="img/portfolio/{{ post.img }}" style="width: 50%; height: 50%" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
+                            {% endif %}
+                            {% if post.video %}
+                                <video width="450" height="450" controls="" autoplay="">
+                                    <source src="/video/{{ post.video }}" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <p></p>
+                            {% endif %}
+                            {% if post.gif %}
+                                <img src="gif/{{ post.gif }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                <p></p>
                             {% endif %}
                             {% if post.link-github %}
                                 <!-- Place this tag where you want the button to render. -->
@@ -26,7 +37,6 @@
                                 <!-- Place this tag where you want the button to render. -->
                                 <a href="{{ post.link-other }}" class="btn btn-success" style="background-color: blue; margin-left: 5px" target="blank">See Publication &nbsp;</a>
                             {% endif %}
-
                             <ul class="list-inline item-details">
                                 {% if post.languages %}
                                     <li>Languages:
@@ -47,7 +57,7 @@
                                     </li>
                                 {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal"> Close</button>
                         </div>
                     </div>
                 </div>
