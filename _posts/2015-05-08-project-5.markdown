@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 5
+title: Face Detector with OpenCV
+date: 2015-05-08
+img: 5.jpg
+alt: image-alt
+project-date: May 2015
+languages: Java
+frameworks: OpenCV; AWT/Java Swing; 
+link-other: https://youtu.be/qMCX57xBMSU
+category: Java Development/Computer Vision
+short-description: Old style Face Detector using OpenCV
+description: Java program that detects faces using OpenCV and also that can pixelate the image to lower resolutions
+---
