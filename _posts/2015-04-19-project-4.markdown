@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 4
+title: Artistic Draw Generator
+date: 2015-04-19
+img: 4.png
+alt: image-alt
+project-date: April 2015
+languages: Java
+frameworks: AWT; Java Swing
+link-other: https://youtu.be/700GpaU9B6M
+category: Java Development/Algorithms
+short-description: Java program that generates drawings/paintings
+description: Java program that uses shortest path algorithms to generate interesting drawings that can be influenced by the clicks made by a user. Check the video below to see it running!
+---
