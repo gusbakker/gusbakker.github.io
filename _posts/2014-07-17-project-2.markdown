@@ -21,6 +21,7 @@ description: >
     New design, 
     Login with Facebook, 
     Content filtering, 
+    Add or Follow friends,
     Chat with your friends, 
     See friends login and posts activity, 
     Dark mode
