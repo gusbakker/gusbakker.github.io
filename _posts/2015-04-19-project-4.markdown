@@ -12,5 +12,5 @@ link-other: https://youtu.be/700GpaU9B6M
 link-github: https://github.com/gusbakker/snake-pathfinding
 category: Java Development/Algorithms
 short-description: Should I call it 'Pathfinding Algorithm with Snakes' or 'Artistic Draw Generator'?
-description: Java program that uses shortest path algorithm for the snakes to follow the apples placed by the user.
+description: Java engine using shortest path algorithm for snakes to follow the apples placed by the user.
 ---

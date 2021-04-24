@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 6
-title: Air Traffic Control
+title: Java Air Traffic Control
 date: 2013-02-08
 img: 6.gif
 alt: image-alt
@@ -11,5 +11,5 @@ frameworks: OpenCV; AWT/Java Swing;
 link-github: https://github.com/gusbakker/simple-air-traffic-control
 category: Java Development
 short-description: Simple Air Traffic Control
-description: Java program that simulates Air Traffic Control using airplanes that move from airport to airport with thread concurrency and limited fuel.
+description: Java GUI to simulate air traffic control using airplanes that move from airport to airport with limited fuel, using multithreading and concurrency mechanisms.
 ---
