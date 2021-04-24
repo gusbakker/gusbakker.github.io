@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 6
+title: Face Detector with OpenCV
+date: 2013-02-08
+img: 6.gif
+alt: image-alt
+project-date: February 2013
+languages: Java
+frameworks: OpenCV; AWT/Java Swing; 
+link-github: https://github.com/gusbakker/simple-air-traffic-control
+category: Java Development
+short-description: Simple Air Traffic Control
+description: Java program that simulates Air Traffic Control using airplanes that move from airport to airport with thread concurrency and limited fuel.
+---
