@@ -3,7 +3,7 @@ layout: default
 modal-id: 1
 title: Face Recognition with Transfer Learning
 date: 2019-04-08
-img: 2b.png
+img: 1.jpeg
 alt: image-alt
 project-date: April 2019
 languages: Python
