@@ -1,15 +1,15 @@
 ---
 layout: default
 modal-id: 1
-title: BERT Chatbot
-date: 2021-03-08
-img: 1.png
+title: Face Recognition with Transfer Learning
+date: 2019-04-08
+img: 2b.png
 alt: image-alt
-project-date: April 2021
+project-date: April 2019
 languages: Python
-frameworks: Flask; PyTorch
-link-github: https://github.com/gusbakker/superchatbot
-category: Web Development/Deep Learning
-short-description: Chatbot based on the transformer model BERT
-description: Chatbot using DeepPavlov library using state-of-the-art Transformer model to produce realistic conversations based on knowledge data.
+frameworks: Tensorflow
+link-github: https://github.com/gusbakker/face-recognition-with-transfer-learning
+category: Deep Learning/Computer Vision
+short-description: Tensorflow Face Recognition with Transfer Learning
+description: Face Recognition with Transfer Learning using Tensorflow to distinguish 2 different faces.
 ---
