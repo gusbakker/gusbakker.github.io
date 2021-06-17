@@ -3,7 +3,7 @@ layout: default
 modal-id: 3
 title: Data Science Capstone
 date: 2020-02-17
-img: 3.jpg
+img: 3.png
 alt: image-alt
 project-date: February 2020
 languages: Python
