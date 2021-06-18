@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 7
+title: Python Multi-Agent Pathfinding
+date: 2021-06-17
+img: 7.gif
+alt: image-alt
+project-date: June 2021
+languages: Python
+frameworks: PyGame
+link-github: https://github.com/gusbakker/pygame-multi-agent-pathfinding
+category: Python Development
+short-description: PyGame multi-agent environment
+description: PyGame gridworld with multi-agent that can be used as a testbed for Reinforcement Learning experiments.
+---
