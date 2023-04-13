@@ -1,0 +1,15 @@
+---
+layout: default
+modal-id: 8
+title: Flask GPT-4
+date: 2023-04-14
+img: 8.png
+alt: image-alt
+project-date: April 2023
+languages: Python
+frameworks: Flask
+link-github: https://github.com/gusbakker/flask-gpt-4
+category: Python Development
+short-description: Flask Web App using GPT-4
+description: Simple web interface for OpenAI API.
+---
