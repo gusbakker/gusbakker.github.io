@@ -1,0 +1,17 @@
+---
+layout: default
+modal-id: 9
+title: Chess GUI
+date: 2023-09-23
+img: 9.png
+alt: image-alt
+project-date: September 2023
+languages: Python
+frameworks: Tkinter; python-chess
+link-github: https://github.com/gusbakker/python-chess-gui
+category: Python Development
+short-description: Simple Chess GUI
+description: Simple Chess GUI built with Tkinter and python-chess, that serves as an interface to apply your own chess AI. Chess rules included.
+
+
+---
